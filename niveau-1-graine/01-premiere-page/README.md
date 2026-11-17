@@ -42,14 +42,14 @@ Aucun ! Ce dossier ne contient que cette consigne. C'est vous qui créez le fich
 
 ## Critères de réussite
 
-- [ ] Le fichier s'appelle `index.html` et se trouve dans le dossier `01-premiere-page`.
-- [ ] La première ligne est `<!DOCTYPE html>`.
-- [ ] La balise `<html>` a l'attribut `lang="fr"`.
-- [ ] Le `<head>` contient `meta charset`, `meta viewport` et un `<title>` personnalisé.
-- [ ] Le `<body>` contient exactement un `<h1>` et au moins un `<p>`.
-- [ ] Chaque balise ouverte est fermée (sauf `<meta>`, qui n'a pas de balise fermante).
-- [ ] Le code est indenté : chaque balise « enfant » est décalée de 2 espaces par rapport à son « parent ».
-- [ ] Les accents s'affichent correctement dans le navigateur.
+- [X] Le fichier s'appelle `index.html` et se trouve dans le dossier `01-premiere-page`.
+- [X] La première ligne est `<!DOCTYPE html>`.
+- [X] La balise `<html>` a l'attribut `lang="fr"`.
+- [X] Le `<head>` contient `meta charset`, `meta viewport` et un `<title>` personnalisé.
+- [X] Le `<body>` contient exactement un `<h1>` et au moins un `<p>`.
+- [X] Chaque balise ouverte est fermée (sauf `<meta>`, qui n'a pas de balise fermante).
+- [X] Le code est indenté : chaque balise « enfant » est décalée de 2 espaces par rapport à son « parent ».
+- [X] Les accents s'affichent correctement dans le navigateur.
 
 ## Indices
 
@@ -84,9 +84,20 @@ Une fois que vous savez écrire la structure de mémoire, VS Code peut la géné
 ## Questions de compréhension
 
 1. Quelle est la différence entre le `<head>` et le `<body>` ?
+<head> : les informations sur la page (titre de l’onglet, encodage). On ne le voit pas sur la page.
+<body> : tout ce qu’on voit (titres, textes, images)
+
 2. À quoi sert l'attribut `lang="fr"` ? (Pensez aux lecteurs d'écran et aux moteurs de recherche.)
+   Il dit : cette page est écrite en français 
+
 3. À quoi sert la ligne `<!DOCTYPE html>` ?
+C’est la première ligne du fichier. Elle dit au navigateur : ce fichier utilise le HTML moderne (HTML5) 
+
 4. Pourquoi est-il utile d'écrire des commentaires dans son code, alors qu'ils ne s'affichent pas ?
+Ils servent à :
+
+-Expliquer ton propre code quand tu le relis dans une semaine,
+-Aider un coach ou un camarade à comprendre ton travail,
 
 ## Lien avec le brief PlantEvo
 
