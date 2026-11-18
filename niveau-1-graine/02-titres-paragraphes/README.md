@@ -39,14 +39,14 @@ Ouvrez `index.html` dans le navigateur **avant** de commencer : tout le texte es
 
 ## Critères de réussite
 
-- [ ] Il y a un seul `<h1>` dans la page.
-- [ ] Les niveaux de titres se suivent sans saut : pas de `<h3>` directement après le `<h1>`.
-- [ ] Il y a 4 `<h2>` et 4 `<h3>`.
-- [ ] Plus aucun texte n'est « libre » dans le `<body>` : tout est dans une balise.
-- [ ] *Zea mays* est dans une balise `<i>`.
-- [ ] Il y a au moins deux `<strong>` et un `<em>`.
-- [ ] `<br>` n'est utilisé qu'une seule fois, dans les crédits (et jamais pour « faire de l'espace »).
-- [ ] Le code est indenté et commenté.
+- [X] Il y a un seul `<h1>` dans la page.
+- [X] Les niveaux de titres se suivent sans saut : pas de `<h3>` directement après le `<h1>`.
+- [X] Il y a 4 `<h2>` et 4 `<h3>`.
+- [X] Plus aucun texte n'est « libre » dans le `<body>` : tout est dans une balise.
+- [X] *Zea mays* est dans une balise `<i>`.
+- [X] Il y a au moins deux `<strong>` et un `<em>`.
+- [X] `<br>` n'est utilisé qu'une seule fois, dans les crédits (et jamais pour « faire de l'espace »).
+- [X] Le code est indenté et commenté.
 
 ## Indices
 
@@ -93,9 +93,22 @@ Le `<br>` se place **à l'intérieur** du paragraphe, entre les deux lignes à s
 ## Questions de compréhension
 
 1. Pourquoi ne doit-il y avoir qu'un seul `<h1>` par page ? (Pensez aux moteurs de recherche.)
+
+Le <h1> dit :  voici le sujet principal de cette page . Les moteurs de recherche (Google)
+
 2. Pourquoi ne faut-il pas choisir une balise de titre (`<h2>`, `<h3>`…) pour sa **taille** d'affichage ?
+
+Les balises <h1> à <h6> décrivent l’importance et l’organisation du contenu (titre, sous-titre, sous-sous-titre). La taille d’affichage, c’est le travail du CSS
+
 3. Quelle est la différence entre `<strong>` et `<b>` ? Entre `<em>` et `<i>` ?
+
+<strong> : texte important (sens fort). <b> : juste mis en gras, sans importance particulière.
+<em> : texte accentué, comme quand on insiste à l’oral. <i> : juste en italique
+
+
 4. Que fait le navigateur quand il rencontre plusieurs espaces ou retours à la ligne dans le code ?
+
+Le navigateur les réduit à un seul espace
 
 ## Lien avec le brief PlantEvo
 
